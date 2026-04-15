@@ -1,0 +1,684 @@
+[
+    {
+        "id": 1,
+        "question": "Sekundární atribut dependability – originalita – je definován jako:",
+        "options": {
+            "a": "integrita obsahu zprávy včetně metadat",
+            "b": "integrita totožnosti odesílatele nebo příjemce zprávy",
+            "c": "integrita totožnosti osoby, která provádí určitou operaci v rámci služby"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 2,
+        "question": "Bezpečnost (angl. security) zahrnuje:",
+        "options": {
+            "a": "dostupnost, integritu a zodpovědnost",
+            "b": "zodpovědnost, originalitu a dostupnost",
+            "c": "integritu, důvěrnost a dostupnost"
+        },
+        "correct": "c",
+        "explanation": "CIA, známe z ZKB"
+    },
+    {
+        "id": 3,
+        "question": "Kolik různých elementárních kritérií používáme pro charakterizaci závad:",
+        "options": {
+            "a": "6",
+            "b": "8",
+            "c": "10"
+        },
+        "correct": "b",
+        "explanation": "1. Fáze vzniku nebo výskytu (phase of creation or occurrence) (vývojová závada) (provozní závada) 2. Umístění vzhledem k ohraničení systému (system boundary) interní/externí 3. Fenomenologická příčina (phenomenological cause... Původ závady) 4. Dimenze (dimension) kde vznikla 5. Cíl (objective) hodnotí záměr závady 6. Úmysl (intent) Specifikuje, jak byla závada naplánována 7. Kapacita (capacity) Popisuje způsob vzniku závady, zda vznikla nahodile nebo v důsledku lidské nekompetence 8. Setrvání, perzistence (persistence) Charakterizuje časové hledisko trvání závady"
+    },
+    
+    {
+        "id": 4,
+        "question": "Následek poruchy patří k elementárním kriterium pro třídění závad:",
+        "options": {
+            "a": "Ano",
+            "b": "Ne"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 5,
+        "question": "Hlavní skupiny závad jsou:",
+        "options": {
+            "a": "závady návrhu, SW závady a fyzické závady",
+            "b": "SW závady, fyzické závady a závady interakce",
+            "c": "závady návrhu, závady interakce a fyzické závady"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 6,
+        "question": "Definice chyby:",
+        "options": {
+            "a": "chyba je závada, která může vést k selhání služby",
+            "b": "chyba je následek závady",
+            "c": "chyba je část celkového stavu systému, která může vést k selhání služby"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 7,
+        "question": "Čtyři hlavní metody pro zajištění dependability jsou:",
+        "options": {
+            "a": "prevence závad, diagnostika závad, odstranění závad a odolnost proti závadám",
+            "b": "prevence závad, diagnostika závad, odstranění závad a předpověď závad",
+            "c": "prevence závad, odolnost proti závadám, odstranění závad a předpověď závad"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 8,
+        "question": "Diagnostika softwarových závad. Podle informací o SW systému, které jsou k dispozici, se rozlišují hlavní metody:",
+        "options": {
+            "a": "dynamické a statické metody",
+            "b": "metody černé a bílé skříňky",
+            "c": "objektově orientované a komponentně orientované metody"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 9,
+        "question": "Dvě hlavní součástí odolností proti závadám jsou:",
+        "options": {
+            "a": "diagnostika závad a následující obnovení systému",
+            "b": "odhalení a odstranění závad ze systému",
+            "c": "odhalení chyb a následující obnovení systému"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 10,
+        "question": "Z kolika kroků se obecně skládá ošetření závad:",
+        "options": {
+            "a": "3",
+            "b": "4",
+            "c": "5"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 11,
+        "question": "Hlavní metody ošetření chyb jsou:",
+        "options": {
+            "a": "odrolování, obnovení a přerolování",
+            "b": "odrolování, obnovení a maskování",
+            "c": "odrolování, přerolování a maskování"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 12,
+        "question": "Hlavní schémata pro zajištění odolnosti systému proti závadám neparalelních systémů jsou:",
+        "options": {
+            "a": "obnovovací bloky, atomické akce a n-variantní programování",
+            "b": "obnovovací bloky, atomické transakce a n-variantní programování",
+            "c": "obnovovací bloky, n-variantní programování a n-samokontrolní programování"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 13,
+        "question": "Kolik přijímacích testů se používá pro každý obnovovací blok:",
+        "options": {
+            "a": "podle počtu alternativních variant v obnovovacím bloku",
+            "b": "pouze jeden test",
+            "c": "neomezený počet"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 14,
+        "question": "Distribuovaný obnovovací blok, který je umístěný na primárním a záložním uzlech:",
+        "options": {
+            "a": "dvě varianty SW programu",
+            "b": "tři varianty",
+            "c": "libovolný počet variant"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 15,
+        "question": "Konsensní obnovovací blok je rezultátem spojení obnovovacího bloku a:",
+        "options": {
+            "a": "N-samokontrolní programování",
+            "b": "N-variantní programování",
+            "c": "rozmanitosti návrhu"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 16,
+        "question": "Podle t/(n-1) – variantního programování:",
+        "options": {
+            "a": "výsledky všech variant musí být porovnány",
+            "b": "některé z výsledků se porovnávají",
+            "c": "více než půlka výsledků musí být porovnávána"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 17,
+        "question": "Atributy dependability odrážejí:",
+        "options": {
+            "a": "kvantitativní hodnocení dependability systému",
+            "b": "jak kvantitativní tak kvalitativní hodnocení dependability systému",
+            "c": "kvalitativní hodnocení dependability systému"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 18,
+        "question": "Zabezpečení je:",
+        "options": {
+            "a": "primárním atributem dependability",
+            "b": "sekundárním atributem dependability",
+            "c": "není atributem dependability"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 19,
+        "question": "Zodpovědnost je:",
+        "options": {
+            "a": "dostupnost a integrita totožnosti osoby, která provádí určitou operaci v rámci služby",
+            "b": "dostupnost a integrita totožnosti odesílatele nebo příjemce zprávy",
+            "c": "integrita totožnosti odesílatele nebo příjemce zprávy"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 20,
+        "question": "Závada je:",
+        "options": {
+            "a": "hypotetická příčina chyby",
+            "b": "zjištěná příčina chyby",
+            "c": "zjištěná nebo hypotetická příčina chyby"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 21,
+        "question": "Selhání systému vzniká:",
+        "options": {
+            "a": "v okamžiku, kdy šíření chyby dosáhne rozhraní služby a tuto službu neakceptovatelně změní",
+            "b": "kdy systém poskytuje nesprávnou službu",
+            "c": "kdy selhání komponenty nebo komponentů ovlivňuje službu poskytovanou systémem"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 22,
+        "question": "Metody pro odvrácení hrozeb jsou:",
+        "options": {
+            "a": "prevence, diagnostika, lokalizace a předpověď závad",
+            "b": "prevence, lokalizace, odstranění a předpověď závad",
+            "c": "prevence, odolnost proti závadám, odstranění a předpověď závad"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 23,
+        "question": "Správná diagnostika kdy:",
+        "options": {
+            "a": "všechny chybné moduly jsou odhaleny",
+            "b": "odhalené chybné moduly jsou ve skutku chybné moduly",
+            "c": "chybné a správné moduly jsou správně identifikovány"
+        },
+        "correct": "b",
+        "explanation": "B MASKOV TO POTVRDIL MAILEM"
+    },
+    {
+        "id": 24,
+        "question": "Cílem samodiagnostiky systému je:",
+        "options": {
+            "a": "zjistit chybný modul (nebo moduly) a správné moduly",
+            "b": "zjistit který modul (moduly) selhál(y), resp. zpřesnění informace o druhu chyby",
+            "c": "přesně identifikovat všechny nesprávné moduly"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 25,
+        "question": "Pro algoritmy založené na tabulce potenciálních syndromů:",
+        "options": {
+            "a": "tabulka se vytvoří před začátkem diagnostické procedury",
+            "b": "tabulka se vytvoří v průběhu diagnostické procedury",
+            "c": "tabulka se vytvoří po provedení diagnostické procedury"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 26,
+        "question": "Tabulka potenciálních syndromů zahrnuje:",
+        "options": {
+            "a": "všechny syndromy, které mohou být obdrženy",
+            "b": "všechny syndromy, které mohou být obdrženy v případě kdy počet chybných modulů je omezen",
+            "c": "všechny syndromy, které mohou být obdrženy pro různé přípustné kombinace stavu modulů"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 27,
+        "question": "Pravděpodobnostní algoritmy jsou založeny na výpočtu:",
+        "options": {
+            "a": "apriorních pravděpodobností stavu modulů",
+            "b": "aposteriorních pravděpodobností stavu modulů",
+            "c": "apriorních a aposteriorních pravděpodobností stavu modulů"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 28,
+        "question": "Intermitentní závady prvého druhu jsou:",
+        "options": {
+            "a": "závady, které mohou být odhaleny stejně jako permanentní závady",
+            "b": "závady, které se chová velmi podobně chování permanentních závad",
+            "c": "závady, které mohou být odhaleny při několika málo opakováních atomických kontrol"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 29,
+        "question": "V případě, že v průběhu diagnostiky intermitentních závad byl obdržen nekonzistentní sumární syndrom:",
+        "options": {
+            "a": "další diagnostika bude zaměřena na odhalení intermitentních závad prvého druhu",
+            "b": "tato situace ukazuje, že v systému jsou intermitentní závady buď druhého nebo třetího druhu",
+            "c": "další diagnostika bude zaměřena na odhalení závad druhého druhu"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 30,
+        "question": "Samokontrola je proces, jehož cílem je:",
+        "options": {
+            "a": "odhalení události selhání systému",
+            "b": "rozlišení dvou stavů systému: správný resp. nesprávný",
+            "c": "kontrola správnosti modulů"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 31,
+        "question": "Výsledek samokontroly:",
+        "options": {
+            "a": "ukazuje, který z modulů systému selhal",
+            "b": "neukazuje, který z modulů systému selhal",
+            "c": "ukazuje stavy všech modulů systému"
+        },
+        "correct": "b",
+        "explanation": "Pozor: Dle klíče je C správně, ačkoliv text otázky 30 naznačuje rozlišení stavu systému."
+    },
+    {
+        "id": 32,
+        "question": "Základní typy diagnostického jádra jsou:",
+        "options": {
+            "a": "stálé, formující se, putující",
+            "b": "pevné, přechodné, putující",
+            "c": "přidělené, formující se, putující"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 33,
+        "question": "V případě putujícího diagnostického jádra:",
+        "options": {
+            "a": "procedura samokontroly je vnořena v samodiagnostice",
+            "b": "procedura samokontroly je částí procedury samodiagnostiky",
+            "c": "procedura samokontroly je oddělena od procedury samodiagnostiky"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 34,
+        "question": "V případě putujícího diagnostického jádra:",
+        "options": {
+            "a": "vznik chyby v systému vede k bezprostřednímu ukončení procedury samokontroly",
+            "b": "vznik chyby v systému nevede k bezprostřednímu ukončení samokontroly",
+            "c": "vznik chyby v systému okamžitě spustí procedury samodiagnostiky"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 35,
+        "question": "Po ukončení procedury samodiagnostiky musí být provedeno obnovení systému. Obnovení je:",
+        "options": {
+            "a": "maskování chybných modulů",
+            "b": "odstranění chybných modulů",
+            "c": "buď pomocí využití nadbytečnosti anebo podle strategie postupné degradace systému"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 36,
+        "question": "V obnovovacím bloku přijímací test je sekce v programu, která bude vyvolána po:",
+        "options": {
+            "a": "ukončení obnovovacího bloku",
+            "b": "ukončení všech alternativních bloků",
+            "c": "ukončení prvořadého bloku nebo kteréhokoli alternativního bloku"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 37,
+        "question": "V obnovovacím bloku přijímací test se:",
+        "options": {
+            "a": "nachází uvnitř prvořadého bloku",
+            "b": "nachází uvnitř každého alternativního bloku",
+            "c": "nenachází uvnitř prvořadého a kteréhokoli alternativního bloku"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 38,
+        "question": "Jestliže chyba vyskytne v samotném přijímacím testu, to tato situace je považována za:",
+        "options": {
+            "a": "chybu v obnovovacím bloku",
+            "b": "závadu v obnovovacím bloku",
+            "c": "selhání obnovovacího bloku"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 39,
+        "question": "Návrh alternativního bloku:",
+        "options": {
+            "a": "záleží na existenci prvořadého bloku",
+            "b": "nezáleží na existenci prvořadého bloku",
+            "c": "používá výsledky provedení prvořadého bloku"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 40,
+        "question": "Certifikační stopy je:",
+        "options": {
+            "a": "specifický druh obnovovacího bloku",
+            "b": "algoritmus-orientovaná schéma",
+            "c": "algoritmus pro porovnání výsledků"
+        },
+        "correct": "b",
+        "explanation": "několik ai modelů se shodne na b, je pravda, že c je zkrátka shady odpověď"
+    },
+    {
+        "id": 41,
+        "question": "t/(n-1) – variantní programování rozlišuje:",
+        "options": {
+            "a": "pouze nezávislé závady",
+            "b": "pouze souvztažné závady",
+            "c": "nezávislé a souvztažné závady"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 42,
+        "question": "Režimy selhání charakterizují službu z hlediska:",
+        "options": {
+            "a": "domény selhání, následků selhání, setrvání selhání a kozistence selhání",
+            "b": "domény selhání, detekovatelnosti selhání, následků selhání a konzistence selhání",
+            "c": "domény selhání, setrvání selhání, následků selhání a závažnosti selhání"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 43,
+        "question": "Nestálá (angl. Erratic) selhání jsou selhání, která uvažujeme z hlediska:",
+        "options": {
+            "a": "konzistence selhání",
+            "b": "setrvání selhání",
+            "c": "domény selhání"
+        },
+        "correct": "b",
+        "explanation": "Pokud by a) pojednávalo o NEkonzistenci, byla by správná a"
+    },
+    {
+        "id": 44,
+        "question": "Byzantské selhání jsou:",
+        "options": {
+            "a": "časová selhání",
+            "b": "obsahová selhání",
+            "c": "nekonzistentní selhání"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 45,
+        "question": "Menší (nedůležitá) selhání jsou selhání:",
+        "options": {
+            "a": "kdy škody od selhání jsou srovnatelné se ziskem",
+            "b": "kdy škody od selhání jsou výrazně menší než zisk od poskytování správné služby",
+            "c": "kdy škody od selhání nepatrně menší než zisk"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 46,
+        "question": "Selhání výkonu (angl. Performance failure) jsou:",
+        "options": {
+            "a": "obsahová selhání",
+            "b": "časová selhání",
+            "c": "konzistentní selhání"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 47,
+        "question": "Systém, ve kterém jsou možné Erratic (nestálá) selhání, je:",
+        "options": {
+            "a": "systém s kontrolovatelnými selháními",
+            "b": "systém, který není systémem s kontrolovatelnými selháními",
+            "c": "fail-halt systém"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 48,
+        "question": "N-samokontrolní programování:",
+        "options": {
+            "a": "komponenty jsou vykonány sekvenčně",
+            "b": "komponenty jsou vykonány paralelně",
+            "c": "jeden komponent je považován za aktivní komponent"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 49,
+        "question": "N-variantní programování:",
+        "options": {
+            "a": "varianty jsou vykonány sekvenčně",
+            "b": "varianty jsou vykonány paralelně",
+            "c": "ne všechny varianty jsou vykonány"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 50,
+        "question": "Izolace závady v průběhu ošetření závad znamená:",
+        "options": {
+            "a": "fyzické odstranění závady",
+            "b": "fyzické nebo logické vyloučení nesprávných komponentů z další účastí v poskytování služby",
+            "c": "lokalizace závady a vyloučení z další účastí"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 51,
+        "question": "N-variantní programování a Objektová orientace. Strukturální principy. Rozmanitost kteréhokoli komponentu je:",
+        "options": {
+            "a": "viditelná pouze z obalujícího komponentu",
+            "b": "viditelná pouze pro volající komponent",
+            "c": "neviditelná pro ostatní komponenty systému"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 52,
+        "question": "NVP. Abstraktní stav varianty. Systém má N variant a t z nich mohou selhat. Kolik obnovovacích a kopírujících funkcí budeme potřebovat:",
+        "options": {
+            "a": "N obnovovacích a t kopírujících funkcí",
+            "b": "N obnovovacích a (t+1) kopírujících funkcí",
+            "c": "(N-1) obnovovacích a t kopírujících funkcí"
+        },
+        "correct": "b",
+        "explanation": "správně by bylo N + N (ale není v nabídce)"
+    },
+    {
+        "id": 53,
+        "question": "Ošetření výjimek v NVP. Výjimka „Selhání“ bude signalizována když:",
+        "options": {
+            "a": "většina variant signalizuje výjimku „Selhání“",
+            "b": "není většina",
+            "c": "výsledek varianty patří menšině"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 54,
+        "question": "Ošetření výjimek v NVP. Tři varianty (Normální-1, Normální-2, Výjimkový-1). Výsledek:",
+        "options": {
+            "a": "Normální",
+            "b": "Výjimka „Selhání“",
+            "c": "Výjimkový-1"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 55,
+        "question": "Ztráta důvěrnosti je:",
+        "options": {
+            "a": "závada",
+            "b": "chyba",
+            "c": "selhání"
+        },
+        "correct": "b",
+        "explanation": " "
+    },
+    {
+        "id": 56,
+        "question": "Útok a Intrusion (tj. nežádoucí vniknutí):",
+        "options": {
+            "a": "Útok je pokus o Intrusion",
+            "b": "Intrusion je výsledek útoku",
+            "c": "Útok je úspěšný Intrusion"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 57,
+        "question": "Příčiny pro vznik Intrusionu:",
+        "options": {
+            "a": "alespoň jedna slabina nebo zranitelnost",
+            "b": "zlomyslný čin nebo útok a slabina/zranitelnost",
+            "c": "Lidská činnost nebo technická aktivita"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 58,
+        "question": "Co bezprostředně vede k bezpečnostnímu selhání:",
+        "options": {
+            "a": "porušení pravidla",
+            "b": "porušení cílu",
+            "c": "porušení bezpečnostní politiky"
+        },
+        "correct": "c",
+        "explanation": ""
+    },
+    {
+        "id": 59,
+        "question": "Koordinovaná atomická akce (KAA) je:",
+        "options": {
+            "a": "Konverzace + atomické transakce",
+            "b": "Atomická akce + atomická transakce",
+            "c": "Rozšířená konverzace + atomická transakce"
+        },
+        "correct": "b",
+        "explanation": ""
+    },
+    {
+        "id": 60,
+        "question": "KAA. Co znamená dezerce vláken?",
+        "options": {
+            "a": "Jedna z rolí není aktivována",
+            "b": "Jedna z rolí nedosáhla konce KAA",
+            "c": "Jedna z rolí opustí KAA dříve než ostatní"
+        },
+        "correct": "a",
+        "explanation": "a i b"
+    },
+    {
+        "id": 61,
+        "question": "KAA. Ošetření výjimek v blokujícím schématu:",
+        "options": {
+            "a": "Role budou informovány o vzniklé výjimce pouze když budou ukončeny",
+            "b": "Role budou informovány o vzniklé výjimce ihned po vzniku výjimky v jedné z rolí",
+            "c": "Role budou informovány o vzniklé výjimce po ukončení přijímacího testu"
+        },
+        "correct": "a",
+        "explanation": ""
+    },
+    {
+        "id": 62,
+        "question": "KAA. Maskující nadbytečnost:",
+        "options": {
+            "a": "Operace se provádí na původním objektu",
+            "b": "Operace se provádí na klonech objektů",
+            "c": "Operace provádí na původním objektu a na všech klonech"
+        },
+        "correct": "b",
+        "explanation": ""
+    }
+]
